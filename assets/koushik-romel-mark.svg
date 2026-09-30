@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-label="Abstract monogram mark for Koushik Romel">
+  <rect width="520" height="520" rx="40" fill="#111827"/>
+  <path d="M104 104h312v312H104z" fill="#172033"/>
+  <path d="M134 134h252v252H134z" fill="#202c45"/>
+  <path d="M166 162h72v196h-72z" fill="#2dd4bf"/>
+  <path d="M238 162h116c46 0 76 28 76 70 0 30-16 52-42 62l52 64h-82l-44-56h-4v56h-72zm72 56v36h39c16 0 26-7 26-18s-10-18-26-18z" fill="#f8fafc"/>
+  <path d="M166 162h72l-72 94z" fill="#f97316"/>
+  <path d="M166 358l72-92v92z" fill="#99f6e4"/>
+  <circle cx="386" cy="146" r="24" fill="#f97316"/>
+</svg>

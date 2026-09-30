@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A one page personal web app for Koushik Romel."
+    />
+    <meta name="theme-color" content="#111827" />
+    <title>Koushik Romel</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="profile-panel" aria-labelledby="site-title">
+        <div class="visual" aria-hidden="true">
+          <img
+            src="assets/koushik-romel-mark.svg"
+            alt=""
+            width="520"
+            height="520"
+          />
+        </div>
+
+        <div class="content">
+          <p class="eyebrow">Personal Web App</p>
+          <h1 id="site-title">Koushik Romel</h1>
+          <p class="intro">
+            Welcome to my one page home on the web. This page is built for quick
+            introductions, simple sharing, and a clean first impression.
+          </p>
+
+          <div class="actions" aria-label="Page actions">
+            <a class="button primary" href="#about">Explore</a>
+            <button class="button secondary" id="copy-link" type="button">
+              Copy Link
+            </button>
+          </div>
+
+          <dl class="status-grid" aria-label="Site details">
+            <div>
+              <dt>Page</dt>
+              <dd>GitHub Pages</dd>
+            </div>
+            <div>
+              <dt>Focus</dt>
+              <dd>Simple, fast, personal</dd>
+            </div>
+            <div>
+              <dt>Mode</dt>
+              <dd id="theme-label">Dark</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="about" id="about" aria-labelledby="about-title">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2 id="about-title">A compact personal landing page.</h2>
+        </div>
+        <p>
+          This page keeps the focus on the name, the first impression, and a
+          smooth experience across phones, tablets, and desktops.
+        </p>
+        <button class="theme-toggle" id="theme-toggle" type="button">
+          Switch Theme
+        </button>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
